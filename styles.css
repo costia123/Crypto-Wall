@@ -6,12 +6,79 @@ body{
     background-color: #171925;
 }
 .box{
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    background-image: url(https://acegif.com/wp-content/gif/outerspace-6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .left_box{
     width: 70%;
+    height: 100%;
 }
 .right_box{
     width: 30%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    align-content: space-around;
+    justify-content: start;
+    align-items: center;
+    justify-items: center;
+}
+.crypto_box{
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 5px;
+}
+.crypto_box_top{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.reload_btn{
+    background: transparent;
+    border: none;
+}
+.svg{
+        filter: invert(100%) sepia(0%) saturate(2476%);
+}
+.crypto_core{
+}
+.txt{
+    color: white;
+}
+.crypto_foot{
+    display: flex;
+}
+.pourcent{
+    background-color: #00ff37;
+    width: 75px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+.t{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.tt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.img_width{
+    width: 48px !important;
+    height: 48px !important;
 }
